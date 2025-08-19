@@ -24,6 +24,8 @@ header h1 {
   margin-bottom: 0.5rem;
 }
 
+
+
 /* Navigation */
 nav ul {
   list-style: none;
@@ -72,6 +74,49 @@ article p {
   font-size: 1rem;
   color: #555;
 }
+
+article pre {
+  font-size: 1rem;
+  color: #555;
+}
+
+header {
+  text-align: center;
+  padding: 3rem 1rem;
+  color: white;
+  background-image: 
+    linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), 
+    url('1000089462.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  background-color: white; /* solid white background */
+  padding: 0.5rem 1rem;
+  margin: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: black; /* black text on white */
+  font-weight: bold;
+  font-size: 1rem;
+  padding: 0.4rem 0.8rem;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+nav a:hover,
+nav a.active {
+  background-color: #f0f0f0; /* light grey hover */
+  border-radius: 4px;
+}
+
+
 
 /* Footer */
 footer {

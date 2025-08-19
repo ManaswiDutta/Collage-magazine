@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Marvel of Microchips</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    /* ----- HEADER ----- */
+    header {
+      text-align: center;
+      padding: 1.5rem;
+      background: #fff6e5;
+      border-bottom: 1px solid #eee;
+    }
+    header img {
+      height: 80px;
+      vertical-align: middle;
+      border-radius: 6px;
+      margin-bottom: 0.5rem;
+    }
+    header h1 {
+      font-size: 1.8rem;
+      color: #2e2e2e;
+      margin: 0.5rem 0 1rem;
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      padding: 0;
+      margin: 0;
+    }
+    nav a {
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: #a67c00;
+    }
+
+    /* ----- ARTICLE PAGE ----- */
+    .article-container {
+      max-width: 900px;
+      margin: auto;
+      padding: 3rem 2rem;
+      line-height: 1.8;
+    }
+    .article-container h2 {
+      font-size: 2.3rem;
+      margin-bottom: 0.5rem;
+      color: #2e2e2e;
+    }
+    .article-meta {
+      color: #777;
+      font-size: 0.95rem;
+      margin-bottom: 1.5rem;
+    }
+    .article-container img {
+      width: 100%;
+      border-radius: 10px;
+      margin: 1.5rem 0;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+    }
+    .article-container p {
+      margin-bottom: 1.5rem;
+      color: #444;
+      font-size: 1.05rem;
+      text-align: justify;
+    }
+    .back-link {
+      display: inline-block;
+      margin-top: 2rem;
+      text-decoration: none;
+      color: #a67c00;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+    .back-link:hover {
+      color: #704c00;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <img src="rkm.jpg" alt="RKMV Logo">
+  <h1>RKMV Physics Department Annual Magazine</h1>
+  <nav>
+    <ul>
+      <li><a href="index.html">This Year</a></li>
+      <li><a href="previous.html">Previous Year</a></li>
+      <li><a href="about.html">About Us</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main class="article-container">
+  <h2>SC Maglev Technology</h2>
+  <p class="article-meta">Published: August 15, 2025 — Author: name (UG X)</p>
+  
+  <img src="maglev.webp" alt="Maglev Image">
+
+  <p>Magnetic levitation technology for trains has been in testing for over 50 years. It can be classified into two major classes, namely, the Electromagnetic suspension(EMS), and the Electrodynamics suspension(EDS). The latter passively provides more stability, and is the tech that Japan’s ScMaglev project relies on, which also uses superconductors. With no physical contact with the track/guiderail(therefore drastically reducing the friction) while cruising, this vehicle can reach up to an astounding 500 kmph(603 kmph highest recorded).</p>
+
+  <p>Superconductivity is a phenomenon in which certain materials, when cooled under a critical temperature(which is usually as low as only a few degrees C more than the absolute zero), transports current with zero resistance. The train boasts loops of superconductors inside its body, which is kept cool(under critical temp) with liquid helium, and produces strong magnetic fields. When cruising at high speeds, the propulsion is done by current loops in the guiderail that alternates their magnetic fields’ polarity in a way such that the net force applied on the loops in the train is always forward facing. The genius of this technology lies in its clever use of laws of electromagnetism in the levitation. This is achieved by another set of ‘8’-shaped loops lined in the guiderails, which are not even powered! When speeding forward, the magnetic fields from the train induce currents in these loops in certain way which in return produces a magnetic force that lifts of the train from the track. These loops also help guide the vehicle, that is, keeping it within the guiderails by maintaining a dynamic equilibrium. The electricity required to power the train’s accessories is supplied from a ground coil by inductive power collection technology.</p>
+
+  <p>While still scarce, the ScMaglev is certainly one of finest practical applications of the physics of electromagnetism in the daily lives. Breaking through the speed limits that Nature imposes upon us by using her own laws ingeniously has been the nature of humans, and this technology is no doubt an amazing addition to the list.</p>
+
+
+
+  <a href="index.html" class="back-link">&larr; Back to This Year’s Articles</a>
+</main>
+
+<footer>
+  &copy; 2025 Wall magazine — RKMV physics department
+</footer>
+
+</body>
+</html>
